@@ -1,0 +1,9 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: dailywear-consumers
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10001/eureka/
