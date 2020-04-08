@@ -7,7 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dailywear-consumer" />
+        <module name="dailywear-hystrixdashboard" />
         <module name="dailywear-provider" />
+        <module name="node01" />
+        <module name="node02" />
         <module name="Practice-SpringCloud" />
       </profile>
     </annotationProcessing>
@@ -15,7 +18,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="dailywear-consumer" options="-parameters" />
+      <module name="dailywear-hystrixdashboard" options="-parameters" />
       <module name="dailywear-provider" options="-parameters" />
+      <module name="node01" options="-parameters" />
+      <module name="node02" options="-parameters" />
     </option>
   </component>
 </project>

@@ -13,7 +13,10 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/dailywear-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dailywear-hystrixdashboard/pom.xml" />
         <option value="$PROJECT_DIR$/dailywear-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/node01/pom.xml" />
+        <option value="$PROJECT_DIR$/node02/pom.xml" />
       </list>
     </option>
   </component>
